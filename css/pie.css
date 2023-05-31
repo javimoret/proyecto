@@ -1,0 +1,276 @@
+
+#pie {
+	position: absolute;
+	border: 1px solid rgb(0, 238, 255);
+	height: 400px;
+	background-color: rgb(53, 53, 53);
+	width: 1170px;
+	
+}
+
+#sobre{
+	position: absolute;
+	border: 1px solid orange;
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+}
+
+#textopie{
+	color: white;
+	
+}
+
+#logopie {
+	position: absolute;
+	height: 40px;
+	width: 116px;
+	
+}
+
+#redes{
+	position: absolute;
+	border: 1px solid pink;
+	width: 225px;
+	height: 45px;
+	margin: 20px;
+	top: 200px;
+}
+
+#facebook{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(53, 53, 53);
+	background-image: url(../img/social-icons.png);
+	background-position-x: 0px;
+	background-position-y: 0px;
+	float: right;
+}
+
+#facebook:hover {
+	width: 45px;
+	height: 45px;
+	background-position-x: 0px;
+	background-position-y: -47px;
+}
+
+#twitter{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(53, 53, 53);
+	background-image: url(../img/social-icons.png);
+	background-position-x: -52px;
+	background-position-y: 0px;
+	float: right;
+}
+
+#twitter:hover {
+	width: 45px;
+	height: 45px;
+	background-position-x: -52px;
+	background-position-y: -47px;
+
+}
+
+#bola{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(53, 53, 53);
+	background-image: url(../img/social-icons.png);
+	background-position-x: -104px;
+	background-position-y: 0px;
+	float: right;
+}
+
+#bola:hover {
+	width: 45px;
+	height: 45px;
+	background-position-x: -104px;
+	background-position-y: -47px;
+
+}
+
+#wifi{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(53, 53, 53);
+	background-image: url(../img/social-icons.png);
+	background-position-x: -156px;
+	background-position-y: 0px;
+	float: right;
+}
+
+#wifi:hover {
+	width: 45px;
+	height: 45px;
+	background-position-x: -156px;
+	background-position-y: -47px;
+
+}
+
+#triangulo{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(53, 53, 53);
+	background-image: url(../img/social-icons.png);
+	background-position-x:  -208px;
+	background-position-y: 0px;
+	float: right;
+}
+
+#triangulo:hover {
+	width: 45px;
+	height: 45px;
+	background-position-x: -208px;
+	background-position-y: -47px;
+
+}
+
+#mapa{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border: 1px solid cyan;
+	left: 275px;
+	top: 20px;
+}
+
+#latest{
+	position: absolute;
+	border: 1px solid greenyellow;
+	width: 250px;
+	height: 150px;
+	right: 375px;
+	top: 50px;
+}
+
+#latest div{
+	border: 1px solid pink;
+	width: 250px;
+	height: 100px;
+}
+
+#galeriapie{
+	position:absolute;
+	height: 250px;
+	width: 300px;
+	border: 1px solid greenyellow;
+	right: 50px;
+	top: 50px;
+}
+
+#galeriapie div {
+	width: 60px;
+	height: 60px;
+	border: 1px solid cyan;
+	float: left;
+	margin: 5px;
+}
+
+#fotopie1{
+	background-size: cover;
+	background-image: url(../img/baloncesto1.jpg);
+}
+
+#fotopie2{
+	background-size: cover;
+	background-image: url(../img/formula1.jpg);
+}
+
+#fotopie3{
+	background-size: cover;
+	background-image: url(../img/city.jpeg);
+	background-position-x: -25px;
+}
+
+#fotopie4{
+	background-size: cover;
+	background-image: url(../img/motogp1.jpeg);
+}
+
+#fotopie5{
+	background-size: cover;
+	background-image: url(../img/tenis1.jpeg);
+}
+
+#fotopie6{
+	background-size: cover;
+	background-image: url(../img/valverde.peg);
+}
+
+#fotopie7{
+	background-size: cover;
+	background-image: url(../img/vini.jpeg);
+}
+
+#fotopie8{
+	background-size: cover;
+	background-image: url(../img/Captura\ desde\ 2023-05-22\ 11-37-11.png);
+}
+
+#fotopie9{
+	background-size: cover;
+	background-image: url(../img/morata.jpeg);
+}
+
+#fotopie10{
+	background-size: cover;
+	background-image: url(../img/kingleague.png);
+}
+
+#fotopie11{
+	background-size: cover;
+	background-image: url(../img/albaredondo.jpeg);
+}
+
+#fotopie12{
+	background-size: cover;
+	background-image: url(../img/psg.jpeg);
+}
+
+
+.menupie{
+	position: absolute;
+	border: 1px solid fuchsia;
+	width: 1100px;
+	height: 45px;
+	margin: 10px;
+	bottom: 10px;
+}
+
+
+.menupie > .menu > li > .amenupie:hover {
+	color: orange;
+	height: 25px;
+	background-color: rgb(53, 53, 53);
+}
+
+div.menupie > ul.menu > li{
+	margin-top: 10px;
+}
+
+div.menupie > ul.menu {
+	float: right;
+}
+
+.letrapie {
+	color: white;
+}
+
+#arriba2{
+	position: absolute;
+	
+	height: 47px;
+	width: 47px;
+	bottom: 20px;
+	right: 10px;
+}
+
+.menupie > .menu > li >.amenupie{
+	color: white;
+}
