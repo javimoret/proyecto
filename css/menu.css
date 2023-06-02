@@ -158,7 +158,7 @@ div#logo {
 
 div#logo2 {
 	position: relative;
-	border: 1px solid yellow;
+
 	width: 180px;
 	height: 55px;
 	background-size: cover;
@@ -168,7 +168,7 @@ div#logo2 {
 
 div#texto {
 	position: relative;
-	border: 1px solid green;
+	
 	width: 280px;
 	height: 55px;
 	float: right;
