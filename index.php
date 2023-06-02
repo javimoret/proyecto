@@ -77,13 +77,12 @@ $sql_detalles = $conexion -> query("SELECT * FROM detalles ");
 				</div>
 			</div>
 			<div id="noticia2">
-				<h1 id="titulo">Titulo</h1>
+				<h1 id="titulo">Barcelona campeon de la liga 2022/2023</h1>
 				<br></br><br></br>
-				<p>haefasfaefaefaefaeafwafawwf</p>
-				<br></br><br></br>
-				<p>wafawfawfawfwafwafwafawfawfw</p>
-				<br></br><br></br>
-				<a>Mas...</a>
+				<p>Cuatro años después de la consecución de su último título de Liga, el Barcelona vuelve a reinar en España. El equipo azulgrana ha sido el mejor del campeonato de cabo a rabo, el más regular, el que menos ha notado los efectos de tener que disputar un Mundial a mitad de temporada.
+
+La apuesta por las palancas ha terminado saliéndole bien a los catalanes. El pasado verano el club hizo lo imposible para poder disponer de dinero con el que proporcionarle a Xavi una plantilla en condiciones.</p>
+				
 			</div>
 
 		</diV>
@@ -104,7 +103,7 @@ $sql_detalles = $conexion -> query("SELECT * FROM detalles ");
 					<img src="img/<?php echo $imagen;?>" alt="barcelona.jpg" width="220px" height="220px">
 					<a class="lupa"></a>
 					<a  href="./detalles.php?id_detalle=<?php echo $id;?>" class="boton"></a>
-					<div class="descripcion">descripcion</div>
+					<div class="descripcion"><?php echo $titulo;?></div>
 				</li>
 			<?php }	?>
 				

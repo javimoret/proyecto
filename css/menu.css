@@ -136,21 +136,21 @@ table {
 }
 
 #principal {
-	border: 1px solid black;
+
 	width: 1175px;
 	margin: 0px auto;
 	height: 1850px;
 }
 
 div#contenedor {
-	border: 1px solid black;
+
 	width: 1175px;
 	margin: 0 auto;
 	height: 400px;
 }
 div#logo {
 	position: relative;
-	border: 1px solid red;
+
 	width: 475px;
 	height: 55px;
 	float: left;
@@ -246,7 +246,7 @@ a li:hover .submenu {
 
 div#contenedor2 {
 	position: relative;
-	border: 1px solid purple;
+
 	width: 750px;
 	height: 350px;
 	float: left;

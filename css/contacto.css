@@ -1,51 +1,65 @@
+#arriba{
+    position: absolute;
+    width: 1175px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+}
 
+#medio{
+    position: relative;
+    width: 1175px;
+    height: 770px;
 
-#pagina{
+    top: 55px;   
+}
+
+#paginac{
    position: relative;
     width: 1175px;
-    border: 1px solid black;
+
     height: 750px;
     background-image: url(../img/page-bg-1.jpg);
     margin: 0px auto;
 }
 
-#izquierda{
+#izquierdac{
     position: absolute;
     width: 750px;
-    border: 1px solid greenyellow;
+
     height: 750px;
 }
 
-#derecha{
+#derechac{
     position: absolute;
     width: 420px;
-    border: 1px solid red;
+
     height: 750px;
     right: 0px;
 }
 
-#titulo{
+div#izquierda > #tituloc{
     position: relative;
     width: 750px;
     height: 100px;
-    border: 1px solid pink;
+
 }
 
-#texto{
+ #textoc{
     position: relative;
     width: 750px;
     height: 150px;
-    border: 1px solid blue;
+
 }
 
-#formulario{
+#formularioc{
     position: relative;
     width: 750px;
     height: 500px;
-    border: 1px solid orange;
+
 }
 
-#titulo{
+#tituloc{
     font-size: 15px
 }
 
@@ -53,21 +67,21 @@
     background-color: rgb(181, 241, 181);
 }
 
-#donde h1 {
+#dondec h1 {
     background-color: white;
     width: 400px;
 }
 
-#datos h1 {
+#datosc h1 {
     background-color: white;
     width: 400px;
 }
 
-#mapa {
+#mapac {
     width: 400px;
 }
 
-#datos a {
+#datosc a {
     color: orangered;
 }
 
