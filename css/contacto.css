@@ -1,0 +1,82 @@
+
+
+#pagina{
+   position: relative;
+    width: 1175px;
+    border: 1px solid black;
+    height: 750px;
+    background-image: url(../img/page-bg-1.jpg);
+    margin: 0px auto;
+}
+
+#izquierda{
+    position: absolute;
+    width: 750px;
+    border: 1px solid greenyellow;
+    height: 750px;
+}
+
+#derecha{
+    position: absolute;
+    width: 420px;
+    border: 1px solid red;
+    height: 750px;
+    right: 0px;
+}
+
+#titulo{
+    position: relative;
+    width: 750px;
+    height: 100px;
+    border: 1px solid pink;
+}
+
+#texto{
+    position: relative;
+    width: 750px;
+    height: 150px;
+    border: 1px solid blue;
+}
+
+#formulario{
+    position: relative;
+    width: 750px;
+    height: 500px;
+    border: 1px solid orange;
+}
+
+#titulo{
+    font-size: 15px
+}
+
+#verde{
+    background-color: rgb(181, 241, 181);
+}
+
+#donde h1 {
+    background-color: white;
+    width: 400px;
+}
+
+#datos h1 {
+    background-color: white;
+    width: 400px;
+}
+
+#mapa {
+    width: 400px;
+}
+
+#datos a {
+    color: orangered;
+}
+
+.botonesf {
+    width: 400px;
+    height: 20px;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+}
