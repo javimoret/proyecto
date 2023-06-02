@@ -64,7 +64,7 @@ $sql_detalles = $conexion -> query("SELECT * FROM detalles ");
 						<li><a href="#">Pagina 3</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="./contacto.html">Contacto</a></li>
 				<li><a href="http://www.javimoret.com.es:8080/javimoret/ejerciciosjee/webapp/formulario.jsp">Acceso privado</a></li>
 				</ul>
 			</div>
